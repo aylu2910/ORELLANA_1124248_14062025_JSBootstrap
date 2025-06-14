@@ -1,0 +1,15 @@
+.active {
+  background-color: #f472b6;
+  /* pink-400 en Tailwind */
+  color: #ffffff;
+  /* blanco */
+  border-radius: 9999px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.dark .active {
+  background-color: #be185d;
+  /* pink-700 en Tailwind */
+  color: #ffffff;
+  /* blanco */
+}
